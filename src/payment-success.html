@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+  <head>
+    @@include('./components/header/head.html')
+    <title>Terminal</title>
+  </head>
+  <body>
+    @@include('./components/header/header.html')
+
+    <main>
+      <section>
+        <div class="container">
+          <div class="message__wrap">
+            <div class="payment__message card cash">
+              <img class="error__img" src="./images/svg/success.svg" alt="" />
+              <h2 class="h2 card">Списание произведено успешно</h2>
+              <h2 class="h2 cash">Оплата произведена успешно</h2>
+            </div>
+            <div class="error__text">
+              <div class="info__text">
+                <h5 class="h5">К наливу:</h5>
+                <p class="accent__num">42.1 литра</p>
+              </div>
+              <p class="black__text">Приступайте к заправке.</p>
+            </div>
+            <p class="black__message">
+              После заправки - укажите использованный рукав для получения чека.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    @@include('./components/footer/footer.html')
+    <script src="./js/main.min.js"></script>
+  </body>
+</html>

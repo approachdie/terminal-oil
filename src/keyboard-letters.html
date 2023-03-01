@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+  <head>
+    @@include('./components/header/head.html')
+    <title>Terminal</title>
+  </head>
+  <body>
+    @@include('./components/header/header-sleeve.html')
+
+    <main>
+      <div class="keyboard letters">
+        <div class="overflow"></div>
+        <div class="keyboard__wrap">
+          <h2 class="h2">Введите свою почту</h2>
+          <div class="input__wrap email">
+            <input
+              class="input input__email"
+              type="email"
+              placeholder="Введите почту"
+            />
+          </div>
+          <div class="numbers">
+            <div class="number__row">
+              <div class="number keyboard-letter">q</div>
+              <div class="number keyboard-letter">w</div>
+              <div class="number keyboard-letter">e</div>
+              <div class="number keyboard-letter">r</div>
+              <div class="number keyboard-letter">t</div>
+              <div class="number keyboard-letter">y</div>
+              <div class="number keyboard-letter">u</div>
+              <div class="number keyboard-letter">i</div>
+              <div class="number keyboard-letter">o</div>
+              <div class="number keyboard-letter">p</div>
+            </div>
+            <div class="number__row">
+              <div class="number keyboard-letter">a</div>
+              <div class="number keyboard-letter">s</div>
+              <div class="number keyboard-letter">d</div>
+              <div class="number keyboard-letter">f</div>
+              <div class="number keyboard-letter">g</div>
+              <div class="number keyboard-letter">h</div>
+              <div class="number keyboard-letter">j</div>
+              <div class="number keyboard-letter">k</div>
+              <div class="number keyboard-letter">l</div>
+            </div>
+            <div class="number__row">
+              <div class="number big__key">
+                <img src="./images/svg/caps.svg" alt="" />
+              </div>
+              <div class="number keyboard-letter">z</div>
+              <div class="number keyboard-letter">x</div>
+              <div class="number keyboard-letter">c</div>
+              <div class="number keyboard-letter">v</div>
+              <div class="number keyboard-letter">b</div>
+              <div class="number keyboard-letter">n</div>
+              <div class="number keyboard-letter">m</div>
+              <div class="number big__key">
+                <img src="./images/svg/backspace.svg" alt="" />
+              </div>
+            </div>
+            <div class="number__row">
+              <div class="number auto">123</div>
+              <div class="number auto">@mail.ru</div>
+              <div class="number auto">@gmail.com</div>
+              <div class="number auto">@yandex.ru</div>
+            </div>
+          </div>
+          <div class="ticket__btns">
+            <button class="btn btn__blue">Отмена</button>
+            <button class="btn btn__accent">Отправить чек</button>
+          </div>
+        </div>
+      </div>
+      <section>
+        <div class="container__sleeve">
+          <div class="container__sleeve-wrap">
+            <div class="left__side">
+              <div class="sleeves">
+                <a class="sleeve gray" href="payment-method.html">
+                  <div class="sleeve__left">
+                    <div class="sleeve__text">1</div>
+                  </div>
+                  <div class="sleeve__right">
+                    <div class="sleeve__right-text">
+                      <h3 class="h3 sleeve__text-right">АИ95</h3>
+                    </div>
+                  </div>
+                </a>
+                <a class="sleeve green" href="payment-method.html">
+                  <div class="sleeve__left">
+                    <div class="sleeve__text">2</div>
+                  </div>
+                  <div class="sleeve__right">
+                    <div class="sleeve__right-text">
+                      <h3 class="h3 sleeve__text-right">АИ95</h3>
+                    </div>
+                  </div>
+                </a>
+                <a class="sleeve blue" href="payment-method.html">
+                  <div class="sleeve__left">
+                    <div class="sleeve__text">3</div>
+                  </div>
+                  <div class="sleeve__right">
+                    <div class="sleeve__right-text">
+                      <h3 class="h3 sleeve__text-right">АИ95</h3>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="right__side">
+              <div class="sleeves">
+                <a class="sleeve blue" href="payment-method.html">
+                  <div class="sleeve__left">
+                    <div class="sleeve__text">4</div>
+                  </div>
+                  <div class="sleeve__right">
+                    <div class="sleeve__right-text">
+                      <h3 class="h3 sleeve__text-right">АИ95</h3>
+                    </div>
+                  </div>
+                </a>
+                <a class="sleeve red" href="payment-method.html">
+                  <div class="sleeve__left">
+                    <div class="sleeve__text">5</div>
+                  </div>
+                  <div class="sleeve__right">
+                    <div class="sleeve__right-text">
+                      <h3 class="h3 sleeve__text-right">АИ95</h3>
+                    </div>
+                  </div>
+                </a>
+                <a class="sleeve red" href="payment-method.html">
+                  <div class="sleeve__left">
+                    <div class="sleeve__text">6</div>
+                  </div>
+                  <div class="sleeve__right">
+                    <div class="sleeve__right-text">
+                      <h3 class="h3 sleeve__text-right">АИ95</h3>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          @@include('./components/info-block/info-block.html')
+        </div>
+      </section>
+    </main>
+
+    @@include('./components/footer/footer.html')
+    <script src="./js/main.min.js"></script>
+  </body>
+</html>

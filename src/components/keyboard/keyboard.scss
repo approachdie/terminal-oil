@@ -1,0 +1,23 @@
+.keyboard {
+  .number__row {
+    justify-content: center;
+  }
+  .number {
+    padding: 20px 30px;
+  }
+  .number.keyboard-letter {
+    width: 93px;
+  }
+  .number.big__key {
+    width: 151px;
+  }
+  .auto {
+    width: auto;
+  }
+  .tabs {
+    display: none;
+  }
+  .tabs.active {
+    display: block;
+  }
+}

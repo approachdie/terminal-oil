@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+  <head>
+    @@include('./components/header/head.html')
+    <title>Terminal</title>
+  </head>
+  <body>
+    @@include('./components/header/header-card.html')
+
+    <main class="cash__page card">
+      <div class="keyboard letters">
+        <div class="overflow"></div>
+        <div class="keyboard__wrap code-used">
+          <div class="not__found">
+            <div class="error__img">
+              <img src="./images/svg/error.svg" alt="" />
+            </div>
+            <h2 class="h2">Введенный код не найден</h2>
+            <p class="modal__text">Попробуйте произвести ввод еще раз</p>
+          </div>
+        </div>
+      </div>
+      <section>
+        <div class="container">
+          <div class="main__wrap">
+            <div class="cash__wrap">
+              <div class="cash__left">
+                <div class="tabs">
+                  <div class="tabs__switch">
+                    <div class="left__tab">
+                      <button class="btn btn__white tab__btn active">
+                        Рубли
+                      </button>
+                    </div>
+                    <div class="right__tab">
+                      <button class="btn btn__white tab__btn">Литры</button>
+                    </div>
+                  </div>
+                  <div class="tabs__content">
+                    @@include('./components/rubles/rubles.html')
+                    @@include('./components/litres/litres.html')
+                  </div>
+                </div>
+              </div>
+              <div class="cash__right">
+                <div class="cash__number">
+                  <h5 class="h5">Выбран вид топлива:</h5>
+                  <p class="cash__text">АИ-95</p>
+                </div>
+                <div class="cash__number">
+                  <h5 class="h5">Цена за литр:</h5>
+                  <p class="cash__text">49.50₽</p>
+                </div>
+                <div class="cash__number">
+                  <h5 class="h5">Оплата на</h5>
+                  <p class="cash__text">0₽</p>
+                </div>
+                <div class="ticket active">
+                  <h5 class="h5">Талон возврата не активирован.</h5>
+                  <h5 class="h5 active" data-micromodal-trigger="not-possible">
+                    Активирован талон возврата на 2 000 Р.
+                  </h5>
+                </div>
+                <div class="cash__number">
+                  <h5 class="h5">Итого к оплате:</h5>
+                  <p
+                    class="cash__text accent"
+                    data-micromodal-trigger="not-found"
+                  >
+                    0₽
+                  </p>
+                </div>
+                <div class="cash__number">
+                  <h5 class="h5">Итого к наливу:</h5>
+                  <p
+                    class="cash__text accent"
+                    data-micromodal-trigger="code-used"
+                  >
+                    4.1 литра
+                  </p>
+                </div>
+                <div class="under__text">
+                  <p class="black__text">
+                    Если у вас есть талон дозаправки, поднесите его к
+                    считывателю или
+                    <a
+                      class="accent__link"
+                      data-micromodal-trigger="ticket-modal"
+                      >введите вручную</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+            @@include('./components/info-cash/info-cash.html')
+          </div>
+        </div>
+      </section>
+    </main>
+
+    @@include('./components/footer/footer.html')
+    <script src="./js/main.min.js"></script>
+  </body>
+</html>

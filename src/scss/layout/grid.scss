@@ -1,0 +1,50 @@
+.container {
+  position: relative;
+  max-width: calc(#{$containerWidth} + 80px);
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.container__sleeve {
+  position: relative;
+  max-width: calc(#{$containerWidth} + 80px);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.container__wrap {
+  display: flex;
+  gap: 24px;
+  height: 100%;
+  padding-top: 79px;
+  padding-bottom: 79px;
+}
+
+.message__wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.container__payment {
+  display: flex;
+  gap: 24px;
+  height: 100%;
+  padding-top: 79px;
+  padding-bottom: 60px;
+}
+
+.container__sleeve-wrap {
+  display: flex;
+  gap: 24px;
+  padding-top: 79px;
+}

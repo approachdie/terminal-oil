@@ -1,0 +1,42 @@
+.cash__page.card {
+  .cash__left {
+    width: 681px;
+    margin-left: 0;
+    padding-top: 39px;
+  }
+  .cash__right {
+    padding-top: 152px;
+  }
+  .cash__wrap {
+    margin-bottom: 0;
+  }
+}
+
+.tabs__switch {
+  padding-bottom: 29px;
+}
+
+.left__tab {
+  width: 100%;
+}
+
+.right__tab {
+  width: 100%;
+}
+
+.tabs {
+  width: 100%;
+}
+
+.tab {
+  display: none;
+}
+
+.tab.active {
+  display: block;
+}
+
+.tabs__switch {
+  display: flex;
+  gap: 16px;
+}

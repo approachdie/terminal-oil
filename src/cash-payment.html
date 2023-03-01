@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+  <head>
+    @@include('./components/header/head.html')
+    <title>Terminal</title>
+  </head>
+  <body>
+    @@include('./components/header/header-cash.html')
+
+    <main class="cash__page">
+      <section>
+        <div class="container">
+          <p class="cash__message">
+            Внимание! Терминал сдачу не выдает! Внесенные средства не
+            возвращает! При отмене операции - выдается талон возврата!
+          </p>
+          <div class="main__wrap">
+            <div class="cash__wrap">
+              <div class="cash__left">
+                <p class="btn__text">Вставьте купюры в купюроприемник</p>
+                <img src="./images/svg/enter-money.svg" alt="" />
+              </div>
+              <div class="cash__right">
+                <div class="cash__number">
+                  <h5 class="h5">Выбран вид топлива:</h5>
+                  <p class="cash__text">АИ-95</p>
+                </div>
+                <div class="cash__number">
+                  <h5 class="h5">Цена за литр:</h5>
+                  <p class="cash__text">49.50₽</p>
+                </div>
+                <div class="cash__number">
+                  <h5 class="h5">Оплата на</h5>
+                  <p class="cash__text">0₽</p>
+                </div>
+                <div class="ticket active">
+                  <h5 class="h5">Талон возврата не активирован.</h5>
+                  <h5 class="h5 active">
+                    Активирован талон возврата на 2 000 Р.
+                  </h5>
+                </div>
+                <div class="cash__number">
+                  <h5 class="h5">Итого к оплате:</h5>
+                  <p class="cash__text accent">0₽</p>
+                </div>
+                <div class="cash__number">
+                  <h5 class="h5">Итого к наливу:</h5>
+                  <p class="cash__text accent">4.1 литра</p>
+                </div>
+                <div class="under__text">
+                  <p class="black__text">
+                    Если у вас есть талон дозаправки, поднесите его к
+                    считывателю или
+                    <a
+                      class="accent__link"
+                      data-micromodal-trigger="ticket-modal"
+                      >введите вручную</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+            <p class="notice">Максимальная сумма 15 000₽</p>
+            @@include('./components/info-cash/info-cash.html')
+          </div>
+        </div>
+      </section>
+    </main>
+
+    @@include('./components/footer/footer.html')
+    <script src="./js/main.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+.sleeve__status {
+  display: flex;
+  gap: 12px;
+  max-width: 275px;
+  width: 100%;
+  align-items: center;
+}
+
+.status {
+  height: 36px;
+  width: 36px;
+  border-radius: 4px;
+}
+
+.sleeve__status.green {
+  .status {
+    background-color: $green;
+  }
+}
+
+.sleeve__status.blue {
+  .status {
+    background-color: $blue;
+  }
+}
+
+.sleeve__status.gray {
+  .status {
+    background-color: $gray;
+  }
+}
+
+.sleeve__status.red {
+  .status {
+    background-color: $red;
+    opacity: 0.6;
+  }
+}

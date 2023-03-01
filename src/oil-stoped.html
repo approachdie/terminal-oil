@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+  <head>
+    @@include('./components/header/head.html')
+    <title>Terminal</title>
+  </head>
+  <body>
+    @@include('./components/header/header-sleeve.html')
+
+    <main>
+      <div class="keyboard keyboard-numbers">
+        <div class="overflow"></div>
+        <div class="keyboard__wrap oil-stoped">
+          <div class="oil__stop">
+            <h2 class="h2">Налив завершен</h2>
+            <p class="oil__text">Описание, если сможем достать</p>
+            <div class="oil__info">
+              <p class="black__text">Налито</p>
+              <p class="black__num">10 литров</p>
+              <p class="black__text">из</p>
+              <p class="accent__num">40</p>
+            </div>
+            <p class="modal__text black">
+              Если вы платили картой, то разниа будет <br />
+              возвращена на карту. Если платили наличными - <br />
+              будет распечатан таклон дозаправки.
+            </p>
+            <button class="btn btn__accent">Продолжить</button>
+          </div>
+        </div>
+      </div>
+      <section>
+        <div class="container__sleeve">
+          <div class="container__sleeve-wrap">
+            <div class="left__side">
+              <div class="sleeves">
+                <a class="sleeve gray" href="payment-method.html">
+                  <div class="sleeve__left">
+                    <div class="sleeve__text">1</div>
+                  </div>
+                  <div class="sleeve__right">
+                    <div class="sleeve__right-text">
+                      <h3 class="h3 sleeve__text-right">АИ95</h3>
+                    </div>
+                  </div>
+                </a>
+                <a class="sleeve green" href="payment-method.html">
+                  <div class="sleeve__left">
+                    <div class="sleeve__text">2</div>
+                  </div>
+                  <div class="sleeve__right">
+                    <div class="sleeve__right-text">
+                      <h3 class="h3 sleeve__text-right">АИ95</h3>
+                    </div>
+                  </div>
+                </a>
+                <a class="sleeve blue" href="payment-method.html">
+                  <div class="sleeve__left">
+                    <div class="sleeve__text">3</div>
+                  </div>
+                  <div class="sleeve__right">
+                    <div class="sleeve__right-text">
+                      <h3 class="h3 sleeve__text-right">АИ95</h3>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="right__side">
+              <div class="sleeves">
+                <a class="sleeve blue" href="payment-method.html">
+                  <div class="sleeve__left">
+                    <div class="sleeve__text">4</div>
+                  </div>
+                  <div class="sleeve__right">
+                    <div class="sleeve__right-text">
+                      <h3 class="h3 sleeve__text-right">АИ95</h3>
+                    </div>
+                  </div>
+                </a>
+                <a class="sleeve red" href="payment-method.html">
+                  <div class="sleeve__left">
+                    <div class="sleeve__text">5</div>
+                  </div>
+                  <div class="sleeve__right">
+                    <div class="sleeve__right-text">
+                      <h3 class="h3 sleeve__text-right">АИ95</h3>
+                    </div>
+                  </div>
+                </a>
+                <a class="sleeve red" href="payment-method.html">
+                  <div class="sleeve__left">
+                    <div class="sleeve__text">6</div>
+                  </div>
+                  <div class="sleeve__right">
+                    <div class="sleeve__right-text">
+                      <h3 class="h3 sleeve__text-right">АИ95</h3>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          @@include('./components/info-block/info-block.html')
+        </div>
+      </section>
+    </main>
+
+    @@include('./components/footer/footer.html')
+    <script src="./js/main.min.js"></script>
+  </body>
+</html>

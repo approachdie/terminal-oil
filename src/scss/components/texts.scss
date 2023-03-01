@@ -1,0 +1,118 @@
+.footer__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.phone__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.oil__text {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 140%;
+  color: $red;
+}
+
+.btn__text {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+}
+
+.black__text {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: $black;
+}
+
+.notice {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: $gray;
+  margin-bottom: 45px;
+}
+
+.cash__message {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 130%;
+  color: $red;
+  text-align: center;
+  padding-top: 19px;
+  padding-bottom: 60px;
+}
+
+.cash__text {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+}
+
+.cash__text.thin {
+  font-weight: 500;
+}
+
+.gray__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: $gray;
+}
+
+.modal__text {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 140%;
+}
+
+.modal__text.black {
+  color: $black;
+}
+
+.cash__text.accent {
+  color: $accent;
+}
+
+.black__message {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 134%;
+  color: $black;
+  max-width: 658px;
+  text-align: center;
+}
+
+.phone__num {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  color: $black;
+}
+
+.black__num {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+}
+
+.accent__num {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  color: $accent;
+}
+
+.sleeve__text {
+  padding: 20px;
+  font-weight: 900;
+  font-size: 80px;
+  line-height: 97px;
+  text-align: center;
+  color: $white;
+}

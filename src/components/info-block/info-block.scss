@@ -1,0 +1,28 @@
+.info__block {
+  display: flex;
+  padding-bottom: 39px;
+  margin-top: auto;
+}
+
+.info__block-left {
+  display: flex;
+  margin-top: auto;
+  max-width: 326px;
+  width: 100%;
+}
+
+.info__block-right {
+  display: flex;
+  margin-top: auto;
+  margin-left: auto;
+  flex-direction: column;
+  gap: 32px;
+  max-width: 588px;
+  width: 100%;
+}
+
+.sleeve__info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}

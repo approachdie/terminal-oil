@@ -1,0 +1,34 @@
+.info__text {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.payment__message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  .h2.cash {
+    display: none;
+  }
+}
+
+.payment__message.card {
+  .h2.card {
+    display: block;
+  }
+  .h2.cash {
+    display: none;
+  }
+}
+
+.payment__message.cash {
+  .h2.cash {
+    display: block;
+  }
+  .h2.card {
+    display: none;
+  }
+}

@@ -1,0 +1,33 @@
+.oil__full {
+  width: 788px;
+  // padding: 60px;
+  text-align: center;
+  .h2 {
+    margin-bottom: 16px;
+  }
+  .modal__text {
+    margin-bottom: 30px;
+  }
+  .btn.email {
+    padding: 24px 19px;
+  }
+  .btn.print {
+    height: 100%;
+  }
+}
+
+.oil__full-buttons {
+  display: flex;
+  gap: 16px;
+}
+
+.oil__full-left {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+.oil__full-right {
+  width: 100%;
+}

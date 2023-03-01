@@ -1,0 +1,23 @@
+.ticket__modal {
+  // padding: 60px;
+  text-align: center;
+  .h2 {
+    margin-bottom: 16px;
+  }
+  .modal__text {
+    margin-bottom: 30px;
+  }
+  .numbers {
+    margin-bottom: 30px;
+  }
+}
+
+.number.invis {
+  opacity: 0;
+}
+
+.ticket__btns {
+  display: flex;
+  gap: 16px;
+  width: 100%;
+}

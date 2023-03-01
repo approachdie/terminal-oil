@@ -1,0 +1,52 @@
+.cash__page {
+  .main__wrap {
+    height: auto;
+    align-items: normal;
+    gap: 0;
+  }
+}
+
+.cash__wrap {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.cash__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-left: auto;
+}
+
+.cash__right {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  max-width: 489px;
+  width: 100%;
+  gap: 21px;
+}
+
+.ticket {
+  margin-bottom: 21px;
+  .h5.active {
+    display: none;
+  }
+}
+
+.ticket.active {
+  .h5 {
+    display: none;
+  }
+  .h5.active {
+    display: block;
+  }
+}
+
+.cash__number {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

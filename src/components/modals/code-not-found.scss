@@ -1,0 +1,15 @@
+.not__found {
+  position: relative;
+  padding: 120px 60px 60px;
+  text-align: center;
+  .h2 {
+    margin-bottom: 30px;
+  }
+  .error__img {
+    position: absolute;
+    right: 50%;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -50%);
+  }
+}

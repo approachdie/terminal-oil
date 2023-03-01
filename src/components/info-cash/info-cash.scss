@@ -1,0 +1,26 @@
+.info__cash {
+  display: flex;
+  padding-bottom: 39px;
+  margin-top: auto;
+}
+
+.info__cash-left {
+  display: flex;
+  margin-top: auto;
+  max-width: 326px;
+  width: 100%;
+}
+
+.info__cash-right {
+  display: flex;
+  margin-top: auto;
+  margin-left: auto;
+  max-width: 326px;
+  width: 100%;
+}
+
+.sleeve__info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}

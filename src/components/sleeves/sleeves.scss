@@ -1,0 +1,21 @@
+.sleeves {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.left__sleeves {
+  max-width: 588px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.right__sleeves {
+  display: flex;
+  max-width: 588px;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 24px;
+}

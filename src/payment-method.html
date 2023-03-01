@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+  <head>
+    @@include('./components/header/head.html')
+    <title>Terminal</title>
+  </head>
+  <body>
+    @@include('./components/header/header-payment.html')
+
+    <main>
+      <section>
+        <div class="container__sleeve">
+          <div class="container__payment">
+            <div class="left__side">
+              <a class="btn big btn__blue" href="cash-payment.html"
+                ><h1 class="h1">Наличными</h1>
+                <img src="./images/svg/money-white.svg" alt=""
+              /></a>
+            </div>
+            <div class="right__side">
+              <a class="btn big btn__accent" href="card-payment.html"
+                ><h1 class="h1">Картой</h1>
+                <img src="./images/svg/card-white.svg" alt=""
+              /></a>
+            </div>
+            <div class="right__side">
+              <a class="btn big btn__green" href=""
+                ><h1 class="h1">СБП</h1>
+                <img src="./images/svg/sbp.png" alt=""
+              /></a>
+            </div>
+          </div>
+          @@include('./components/info-payment/info-payment.html')
+        </div>
+      </section>
+    </main>
+
+    @@include('./components/footer/footer.html')
+    @@include('./components/modals/payment-cancel.html')
+    <script src="./js/main.min.js"></script>
+  </body>
+</html>

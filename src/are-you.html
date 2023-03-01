@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+  <head>
+    @@include('./components/header/head.html')
+    <title>Terminal</title>
+  </head>
+  <body>
+    @@include('./components/header/header-side.html')
+
+    <main>
+      <div class="keyboard letters">
+        <div class="overflow"></div>
+        <div class="keyboard__wrap code-used">
+          <div class="are__you">
+            <h2 class="h2">Вы еще здесь?</h2>
+            <p class="modal__text">Нажмите на экран для продолжения</p>
+            <p class="gray__text">Переход в режим ожидания через: 20 секунд</p>
+          </div>
+        </div>
+      </div>
+      <section>
+        <div class="container">
+          <div class="container__wrap">
+            <div class="left__side">
+              <a class="btn big btn__blue" href="left-side.html"
+                ><h1 class="h1">Левая</h1>
+                <img src="./images/svg/left-white.svg" alt=""
+              /></a>
+            </div>
+            <div class="right__side">
+              <a class="btn big btn__accent" href="right-side.html"
+                ><h1 class="h1">Правая</h1>
+                <img src="./images/svg/right-white.svg" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    @@include('./components/footer/footer.html')
+    <script src="./js/main.min.js"></script>
+  </body>
+</html>

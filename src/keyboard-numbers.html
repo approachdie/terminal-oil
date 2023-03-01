@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+  <head>
+    @@include('./components/header/head.html')
+    <title>Terminal</title>
+  </head>
+  <body>
+    @@include('./components/header/header-sleeve.html')
+
+    <main>
+      <div class="keyboard keyboard-numbers">
+        <div class="overflow"></div>
+        <div class="keyboard__wrap">
+          <h2 class="h2">Введите свою почту</h2>
+          <div class="input__wrap email">
+            <input
+              class="input input__email"
+              type="email"
+              placeholder="Введите почту"
+            />
+          </div>
+          <div class="numbers">
+            <div class="number__row">
+              <div class="number keyboard-letter">1</div>
+              <div class="number keyboard-letter">2</div>
+              <div class="number keyboard-letter">3</div>
+              <div class="number keyboard-letter">4</div>
+              <div class="number keyboard-letter">5</div>
+              <div class="number keyboard-letter">6</div>
+              <div class="number keyboard-letter">7</div>
+              <div class="number keyboard-letter">8</div>
+              <div class="number keyboard-letter">9</div>
+              <div class="number keyboard-letter">0</div>
+            </div>
+            <div class="number__row">
+              <div class="number keyboard-letter">@</div>
+              <div class="number keyboard-letter">„</div>
+              <div class="number keyboard-letter">“</div>
+              <div class="number keyboard-letter">|</div>
+              <div class="number keyboard-letter">{</div>
+              <div class="number keyboard-letter">}</div>
+              <div class="number keyboard-letter">?</div>
+              <div class="number keyboard-letter">^</div>
+              <div class="number keyboard-letter">*</div>
+            </div>
+            <div class="number__row">
+              <div class="number keyboard-letter">$</div>
+              <div class="number keyboard-letter">!</div>
+              <div class="number keyboard-letter">~</div>
+              <div class="number keyboard-letter">&</div>
+              <div class="number keyboard-letter">=</div>
+              <div class="number keyboard-letter">#</div>
+              <div class="number keyboard-letter">[</div>
+              <div class="number keyboard-letter">]</div>
+            </div>
+            <div class="number__row">
+              <div class="number keyboard-letter">.</div>
+              <div class="number keyboard-letter">!</div>
+              <div class="number keyboard-letter">-</div>
+              <div class="number keyboard-letter">+</div>
+              <div class="number big__key">
+                <img src="./images/svg/backspace.svg" alt="" />
+              </div>
+            </div>
+            <div class="number__row">
+              <div class="number auto">123</div>
+              <div class="number auto">@mail.ru</div>
+              <div class="number auto">@gmail.com</div>
+              <div class="number auto">@yandex.ru</div>
+            </div>
+          </div>
+          <div class="ticket__btns">
+            <button class="btn btn__blue">Отмена</button>
+            <button class="btn btn__accent">Отправить чек</button>
+          </div>
+        </div>
+      </div>
+      <section>
+        <div class="container__sleeve">
+          <div class="container__sleeve-wrap">
+            <div class="left__side">
+              <div class="sleeves">
+                <a class="sleeve gray" href="payment-method.html">
+                  <div class="sleeve__left">
+                    <div class="sleeve__text">1</div>
+                  </div>
+                  <div class="sleeve__right">
+                    <div class="sleeve__right-text">
+                      <h3 class="h3 sleeve__text-right">АИ95</h3>
+                    </div>
+                  </div>
+                </a>
+                <a class="sleeve green" href="payment-method.html">
+                  <div class="sleeve__left">
+                    <div class="sleeve__text">2</div>
+                  </div>
+                  <div class="sleeve__right">
+                    <div class="sleeve__right-text">
+                      <h3 class="h3 sleeve__text-right">АИ95</h3>
+                    </div>
+                  </div>
+                </a>
+                <a class="sleeve blue" href="payment-method.html">
+                  <div class="sleeve__left">
+                    <div class="sleeve__text">3</div>
+                  </div>
+                  <div class="sleeve__right">
+                    <div class="sleeve__right-text">
+                      <h3 class="h3 sleeve__text-right">АИ95</h3>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="right__side">
+              <div class="sleeves">
+                <a class="sleeve blue" href="payment-method.html">
+                  <div class="sleeve__left">
+                    <div class="sleeve__text">4</div>
+                  </div>
+                  <div class="sleeve__right">
+                    <div class="sleeve__right-text">
+                      <h3 class="h3 sleeve__text-right">АИ95</h3>
+                    </div>
+                  </div>
+                </a>
+                <a class="sleeve red" href="payment-method.html">
+                  <div class="sleeve__left">
+                    <div class="sleeve__text">5</div>
+                  </div>
+                  <div class="sleeve__right">
+                    <div class="sleeve__right-text">
+                      <h3 class="h3 sleeve__text-right">АИ95</h3>
+                    </div>
+                  </div>
+                </a>
+                <a class="sleeve red" href="payment-method.html">
+                  <div class="sleeve__left">
+                    <div class="sleeve__text">6</div>
+                  </div>
+                  <div class="sleeve__right">
+                    <div class="sleeve__right-text">
+                      <h3 class="h3 sleeve__text-right">АИ95</h3>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          @@include('./components/info-block/info-block.html')
+        </div>
+      </section>
+    </main>
+
+    @@include('./components/footer/footer.html')
+    <script src="./js/main.min.js"></script>
+  </body>
+</html>

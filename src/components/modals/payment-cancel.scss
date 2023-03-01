@@ -1,0 +1,16 @@
+.payment__cancel {
+  width: 936px;
+  padding: 60px;
+  text-align: center;
+  .h2 {
+    margin-bottom: 16px;
+  }
+  .modal__text {
+    margin-bottom: 30px;
+  }
+}
+
+.cancel__buttons {
+  display: flex;
+  gap: 16px;
+}
